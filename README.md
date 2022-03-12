@@ -25,9 +25,9 @@ As a user I would like:
 ## How to use it
 
 > * Internet connection
-> * Click (https://pitchfree.herokuapp.com/) <br/>
+> * Click (https://pitchhome.herokuapp.com/) <br/>
   or <br/>
-> * Copy (https://pitchfree.herokuapp.com/) and  Paste the link on your prefered browser
+> * Copy (https://pitchhome.herokuapp.com/) and  Paste the link on your prefered browser
 
 ## How it works
 
