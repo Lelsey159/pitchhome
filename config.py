@@ -6,8 +6,7 @@ DBNAME = "app.db"
 
 class Config:
     DATABASE_NAME = DBNAME
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
-    'sqlite:///' + os.path.join(BASEDIR, DBNAME)
+    SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(BASEDIR, DBNAME)
     SQLALCHEMY_TRACK_MODIFICATIONS=False
     SECRET_KEY='3d6f45a5fc12445dbac2f59c3b6c7cb1'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -20,8 +19,7 @@ class Config:
 
 class ProdConfig(Config):
     DATABASE_NAME = DBNAME
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
-    'sqlite:///' + os.path.join(BASEDIR, DBNAME)
+    SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(BASEDIR, DBNAME)
 
 class DevConfig(Config):
     DEBUG = True
